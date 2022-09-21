@@ -1,25 +1,23 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My Portofolio
 
-> Description the project.
+> In this project i show up everything you need to know about my professional experience.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
 
-## Live Demo (if available)
+## Live Demo (No live demo yet)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](link)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**My Portofolio.**
+**Enjoy reading ❤️!**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -27,9 +25,9 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 ### Setup
-
 ### Install
-
+**Please run**
+**npm install**
 ### Usage
 
 ### Run tests
@@ -42,15 +40,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/ndaboom)
+- Twitter: [@twitterhandle](https://twitter.com/ndabosammy)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/sam-ndabo-b0431b17b)
 
 ## 🤝 Contributing
 
