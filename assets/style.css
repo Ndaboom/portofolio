@@ -1,5 +1,75 @@
+/* stylelint-disable color-hex-case */
 /* stylelint-disable indentation */
 /* stylelint-disable no-missing-end-of-source-newline */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
 body {
         background-color: white;
+}
+
+#header_menu {
+       display: flex;
+       width: 100%;
+       list-style-type: none;
+}
+
+#header_menu .welcome_text {
+        width: 90px;
+        height: 28px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 20px;
+        line-height: 28px;
+        flex: 3;
+        order: 1;
+}
+
+.toggleNav {
+        left: 16.67%;
+        right: 16.67%;
+        top: 50%;
+        bottom: 50%;
+        flex: 1;
+        text-align: right;
+        order: 2;
+        flex-grow: 0;
+}
+
+#presentation_text {
+        top: 156px;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+}
+
+#presentation_text .greetings {
+        color: #172B4D;
+}
+
+#presentation_text .profession {
+        color: #36B37E;
+}
+
+#biography {
+        width: 100%;
+        height: 164px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        color: #172B4D;
+}
+
+#social_media_links {
+        text-align: center;
+        margin: 20px;
+        color: #505F79;
+}
+
+#social_media_links .a {
+        height: 40px;
+        width: 40px;
 }
