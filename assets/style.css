@@ -79,3 +79,11 @@ body {
 #social_media_links li a i {
         color: #505F79;
 }
+
+#main_section {
+       background-image: url('./images/background.png');
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+       background-position: center;
+       background-size: 100%;
+}
