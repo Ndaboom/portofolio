@@ -38,6 +38,7 @@ body {
 
 #presentation_text {
         top: 156px;
+        font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 40px;
         line-height: 52px;
@@ -64,12 +65,17 @@ body {
 }
 
 #social_media_links {
-        text-align: center;
-        margin: 20px;
-        color: #505F79;
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
 }
 
-#social_media_links .a {
+#social_media_links li {
         height: 40px;
         width: 40px;
+        margin: 20px;
+}
+
+#social_media_links li a i {
+        color: #505F79;
 }
