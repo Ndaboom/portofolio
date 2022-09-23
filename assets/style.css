@@ -7,6 +7,29 @@ body {
         background-color: white;
 }
 
+.btn-primary {
+        background: #36B37F;
+        border-radius: 4px;
+        color: white;
+        outline-color: none;
+}
+
+.primary-font-style {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+}
+
+.primary-font-size {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+}
+
+.center-content {
+        text-align: center;
+        justify-content: center;
+}
+
 #header_menu {
        display: flex;
        width: 100%;
@@ -39,7 +62,7 @@ body {
 #presentation_text {
         top: 156px;
         font-family: 'Inter', sans-serif;
-        font-weight: 700;
+        font-weight: bold;
         font-size: 40px;
         line-height: 52px;
         text-align: center;
@@ -64,6 +87,30 @@ body {
         color: #172B4D;
 }
 
+.works_card .card-footer .tags li {
+        flex: none;
+        text-align: center;
+        flex-grow: 0;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 12px;
+        background: white;
+        color: #36B37E;
+        border-radius: 8px;
+}
+
+.card .card-footer .tags li {
+        flex: none;
+        text-align: center;
+        flex-grow: 0;
+        font-weight: 600;
+        font-size: 12px;
+        padding: 12px;
+        background: #EBF0EE;
+        color: #3A4A42;
+        border-radius: 8px;
+}
+
 #social_media_links {
         display: flex;
         justify-content: center;
@@ -83,7 +130,254 @@ body {
 #main_section {
        background-image: url('./images/background.png');
        background-repeat: no-repeat;
-       background-attachment: fixed;
        background-position: center;
        background-size: 100%;
+}
+
+#recent_works {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+
+#recent_works h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        color: #172B4D;
+}
+
+#recent_works .indicator {
+       margin-top: 24px;
+       margin-bottom: 62px;
+       background-color: #36B37E;
+       border-radius: 24px;
+       width: 48px;
+       height: 4px;
+}
+
+.work_row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4px 2px;
+        gap: 24px;
+        width: 331px;
+        height: 2972px;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+}
+
+.card {
+        transition: 0.3s;
+        width: 327px;
+        border: 1px solid #D0D9D4;
+        border-radius: 8px;
+}
+
+.card img {
+        width: 100%;
+        height: 252px;
+}
+
+.card-footer {
+        display: flex;
+        flex-direction: column;
+}
+
+.card .card-footer .tags {
+        display: flex;
+        flex-direction: row wrap;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        gap: 8px;
+        width: 266px;
+}
+
+.project_title {
+        width: 295px;
+        height: 57px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #3A4A42;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+
+.action {
+        width: 305px;
+        height: 69px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+}
+
+.action button {
+        width: 122px;
+        height: 48px;
+        left: calc(50% - 122px/2 + 0.5px);
+        bottom: 8px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+}
+
+#about_me {
+       background-image: url('./images/illustration-about-me.png');
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: 100%;
+       margin-top: 200px;
+       width: 100%;
+       height: 389.38px;
+}
+
+.supporting_text {
+        height: 189px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+}
+
+.contact_form_text {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+}
+
+.btn-resume {
+        padding: 12px;
+        gap: 10px;
+        width: 159px;
+        height: 48px;
+        background: #36B37F;
+        border-radius: 4px;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+}
+
+#me_knowledge {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+}
+
+.works_card {
+        transition: 0.3s;
+        width: 327px;
+        height: 352px;
+        background-color: #EBF0EE;
+        border: 1px solid #D0D9D4;
+        border-radius: 8px;
+        margin-top: 24px;
+}
+
+.works_card img {
+        margin-top: 40px;
+        margin-left: 124px;
+        margin-right: 123px;
+        width: 80px;
+        height: 80px;
+}
+
+.works_card .work_title {
+        height: 32px;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #344563;
+}
+
+.works_card .card-footer .tags {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        gap: 8px;
+        width: 266px;
+}
+
+#form_section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-items: center;
+        align-items: center;
+}
+
+#form_section h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 52px;
+        text-align: center;
+}
+
+#form_section .input_form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 58px;
+}
+
+.form-input {
+        box-sizing: border-box;
+        background: white;
+        border: 1px solid #D0D9D4;
+        border-radius: 4px;
+        margin: 24px;
+}
+
+.classic {
+        width: 327px;
+        height: 48px;
+}
+
+.classic-md {
+        width: 327px;
+        height: 114px;
+}
+
+.btn-connect {
+        gap: 10px;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 123px;
+        width: 129px;
+        height: 48px;
+        font-weight: 500;
+        letter-spacing: 0.03em;
+}
+
+.email_address {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 147px;
+        text-align: center;
+        color: #42526E;
 }
