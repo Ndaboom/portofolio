@@ -226,7 +226,6 @@ body {
 .action button {
         width: 122px;
         height: 48px;
-        left: calc(50% - 122px/2 + 0.5px);
         bottom: 8px;
         font-weight: 500;
         font-size: 17px;
