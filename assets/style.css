@@ -16,7 +16,11 @@ body {
 }
 
 .btn-primary:hover {
-        box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+        box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
+}
+
+.btn-primary:active {
+        background: #008552;
 }
 
 .primary-font-style {
