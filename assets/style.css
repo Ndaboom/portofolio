@@ -97,9 +97,8 @@ body {
 }
 
 .works_card .card-footer .tags li {
-        flex: none;
-        text-align: center;
-        flex-grow: 0;
+        float: left;
+        margin: 5px;
         font-weight: 600;
         font-size: 12px;
         padding: 12px;
@@ -329,12 +328,6 @@ body {
 }
 
 .works_card .card-footer .tags {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-items: center;
-        justify-content: center;
-        align-items: center;
         list-style-type: none;
         gap: 8px;
         width: 266px;
