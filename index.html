@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="assets/style.css" />
 </head>
 <body>
-    <header id="header_menu">
+
+    <!-- Mobile header -->
+    <header id="mobile_header">
         <a class="welcome_text">
             Welcome
         </a>
@@ -17,6 +19,20 @@
             <img src="assets/icons/union.png" alt="union icon" />
         </nav>
     </header>
+    <!-- Mobile header-->
+
+    <!-- Desktop header -->
+    <header id="desktop_header">
+        <nav class="main_nav">
+            <ul class="nav_options">
+                <li>Portofolio</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Desktop header -->
+
     <!-- Main section -->
     <section id="main_section">
         <h1 id="presentation_text">
@@ -42,18 +58,16 @@
                 <a href="#" target="_blank"><i class="fa-brands fa-angellist fa-2xl"></i></a>
             </li>
         </ul>
+        <div class="scroll_down_btn">
+            <img src="assets/icons/down-arrow.png" alt="scroll down button"/>
+        </div>
     </section>
 
     <!-- Works section -->
     <section id="recent_works" class="center-content">
-        <div class="scroll_down_btn">
-            <img src="assets/icons/down-arrow.png" alt="scroll down button"/>
-        </div>
         <h1 class="primary-font-style"><b>My Recent <br> Works</b></h1>
-        <div class="indicator"></div>
-        
-        <div class="works_list">
-        
+        <div class="indicator"></div>   
+        <div class="works_list"> 
             <div class="card">
             <img src="assets/images/img-placeholder.png" alt="Avatar">
             <div class="card-footer">
@@ -205,13 +219,27 @@
     <!-- Contact form section -->
     <section id="form_section">
         <h1 class="primary-font-style contact_form_text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h1>
-        <form class="input_form" action="https://formspree.io/f/maykozkk" method="POST">
+        <!-- Mobile get in touch form -->
+        <form class="input_form" id="mobile_form" action="https://formspree.io/f/maykozkk" method="POST">
             <input type="text" class="form-input classic" name="fullname" maxlength="30" placeholder="Full name" required/>
             <input type="email" class="form-input classic" name="email" placeholder="Email address" required/>
             <textarea class="form-input classic-md" name="message" maxlength="500" placeholder="Enter text here" required></textarea>
             <input type="submit" class="btn-primary primary-font-style btn-connect" name="submit-form" value="Get in touch" />
         </form>
-        <ul class="social_media_links">
+        <!-- Mobile get in touch form -->
+
+        <!-- Desktop get in touch form -->
+         <form class="input_form" id="desktop_form" action="https://formspree.io/f/maykozkk" method="POST">
+            <div class="first_elements">
+                <input type="text" class="form-input classic" name="firstname" maxlength="30" placeholder="First name" required/>
+                <input type="text" class="form-input classic" name="lastname" maxlength="30" placeholder="Last name" required/>
+            </div>
+            <input type="email" class="form-input classic" name="email" placeholder="Email address" required/>
+            <textarea class="form-input classic-md" name="message" maxlength="500" placeholder="Enter text here" required></textarea>
+            <input type="submit" class="btn-primary primary-font-style btn-connect" name="submit-form" value="Get in touch" />
+        </form>
+        <!-- Desktop get in touch form -->
+        <ul class="social_media_links" id="mobile_social_links">
             <li>
                 <a href="https://github.com/ndaboom" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
             </li>
@@ -229,6 +257,27 @@
             </li>
         </ul>
         <span class="email_address">ndabosam084@gmail.com</span>
+    </section>
+
+    <!-- Contact form section -->
+    <section id="desktop_social_links">
+        <ul class="social_media_links">
+            <li>
+                <a href="https://github.com/ndaboom" target="_blank"><i class="fa-brands fa-github fa-2xl"></i></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/sam-ndabo-b0431b17b/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/ndabosammy" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com/sammy.ndabo/" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            </li>
+            <li>
+                <a href="#" target="_blank"><i class="fa-brands fa-angellist fa-2xl"></i></a>
+            </li>
+        </ul>
     </section>
 </body>
 </html>
