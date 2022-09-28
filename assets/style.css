@@ -124,6 +124,7 @@ body {
         display: flex;
         justify-content: center;
         list-style-type: none;
+        margin-left: -5px;
 }
 
 #social_media_links li {
@@ -263,6 +264,7 @@ body {
 }
 
 .contact_form_text {
+        font-style: bold;
         font-weight: 700;
         font-size: 40px;
         line-height: 52px;
@@ -367,7 +369,8 @@ body {
         background: white;
         border: 1px solid #D0D9D4;
         border-radius: 4px;
-        margin: 24px;
+        margin: 15px;
+        padding: 15px;
 }
 
 .classic {
@@ -390,6 +393,10 @@ body {
         height: 48px;
         font-weight: 500;
         letter-spacing: 0.03em;
+}
+
+#form_section .span {
+        margin-left: 40px;
 }
 
 .email_address {
