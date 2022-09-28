@@ -1,7 +1,7 @@
 /* stylelint-disable color-hex-case */
 /* stylelint-disable indentation */
 /* stylelint-disable no-missing-end-of-source-newline */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 body {
         background-color: white;
@@ -96,6 +96,16 @@ body {
         color: #172B4D;
 }
 
+.social_media_links li {
+        height: 40px;
+        width: 40px;
+        margin: 7px;
+}
+
+.social_media_links li a i {
+        color: #505F79;
+}
+
 .works_card .card-footer .tags li {
         flex: none;
         text-align: center;
@@ -120,21 +130,11 @@ body {
         border-radius: 8px;
 }
 
-#social_media_links {
+.social_media_links {
         display: flex;
         justify-content: center;
         list-style-type: none;
-        margin-left: -5px;
-}
-
-#social_media_links li {
-        height: 40px;
-        width: 40px;
-        margin: 20px;
-}
-
-#social_media_links li a i {
-        color: #505F79;
+        margin-left: -27px;
 }
 
 #main_section {
@@ -215,7 +215,7 @@ body {
         height: 57px;
         font-family: 'Inter', sans-serif;
         font-style: normal;
-        font-weight: 1000;
+        font-weight: 600;
         font-size: 24px;
         line-height: 32px;
         display: flex;
@@ -261,6 +261,7 @@ body {
         font-size: 20px;
         line-height: 28px;
         text-align: center;
+        color: #42526E;
 }
 
 .contact_form_text {
@@ -352,6 +353,7 @@ body {
 }
 
 #form_section h1 {
+        font-family: 'Inter', sans-serif;
         font-weight: 700;
         font-size: 40px;
         line-height: 52px;
@@ -388,6 +390,8 @@ body {
         justify-items: center;
         align-items: center;
         text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
         margin-left: 123px;
         width: 129px;
         height: 48px;
@@ -397,6 +401,7 @@ body {
 
 #form_section .span {
         margin-left: 40px;
+        margin-top: -20px;
 }
 
 .email_address {
