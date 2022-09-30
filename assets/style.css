@@ -467,14 +467,14 @@ body {
         grid-template-rows: 1fr;
 }
 
+#desktop_form {
+        display: none;
+}
+
 #form_section .input_form {
         display: flex;
         flex-direction: column;
         margin-top: 58px;
-}
-
-#desktop_form {
-        display: none;
 }
 
 #desktop_social_links {
@@ -493,6 +493,17 @@ body {
        background-position: center;
        background-size: 100%;
        height: 700px;
+}
+
+#presentation_text {
+        padding-top: 140px;
+}
+
+#biography {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 550px;
 }
 
 .scroll_down_btn {
@@ -532,6 +543,18 @@ body {
 #form_section {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        background-image:
+        url(./images/contact-form-bckg1.png),
+        url(./images/contact-form-bckg2.png),
+        url(./images/contact-form-bckg3.png);
+        background-repeat: no-repeat, no-repeat, no-repeat;
+        background-position: right bottom, 20% 80%, left bottom;
+}
+
+#form_section .dinput_form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 58px;
 }
 
 #form_section h1 {
@@ -576,5 +599,13 @@ body {
 
 #mobile_social_links {
         display: none;
+}
+
+.action {
+        margin-left: 12px;
+}
+
+.project_title {
+        margin-left: 15px;
 }
 }
