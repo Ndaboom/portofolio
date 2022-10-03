@@ -241,6 +241,10 @@ body {
         letter-spacing: 0.03em;
 }
 
+.action button:hover {
+        border: 2px solid #a7aeff;
+  }
+
 #about_me {
         background-image: url('./images/illustration-about-me.png');
         background-repeat: no-repeat;
