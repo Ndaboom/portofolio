@@ -9,10 +9,9 @@
 
 - HTML & CSS
 
-## Live Demo (No live demo yet)
+## Live Demo
 
-[Live Demo Link](link)
-
+[Live Demo Link](https://github.com/Ndaboom/portofolio)
 
 ## Getting Started
 
