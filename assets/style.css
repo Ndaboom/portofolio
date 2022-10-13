@@ -511,15 +511,18 @@ body {
        z-index: 1000000;
        background-color:rgba(193, 199, 208, 0.75);
        overflow-y: scroll;
+       /* padding: 0 20%; */
 }
 
 .modal-content {
        display: flex;
+       position: relative;
        flex-direction: column;
-       margin-top: 122px;
-       margin-left: 260px;
-       margin-right: 260px;
+       max-width: 80%;
+       margin: 70px 20%;
        background-color: white;
+       border-radius: 16px;
+       padding: 25px;
 }
 
 .modal-header {
@@ -531,11 +534,14 @@ body {
         float: right;
         cursor: pointer;
         margin-right: 5px;
+        background: #EBECF0;
+        padding: 4px;
+        border-radius: 5px;
 }
 
+
 .project_illustration {
-        width:92%;
-        height:auto;
+        width: 100%;
 }
 
 /* MEDIA QUERIES  */
