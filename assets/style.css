@@ -501,6 +501,43 @@ body {
         cursor: pointer;
 }
 
+/* Modal CSS */
+.work-modal {
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       position: fixed;
+       z-index: 1000000;
+       background-color:rgba(193, 199, 208, 0.75);
+       overflow-y: scroll;
+}
+
+.modal-content {
+       display: flex;
+       flex-direction: column;
+       margin-top: 122px;
+       margin-left: 260px;
+       margin-right: 260px;
+       background-color: white;
+}
+
+.modal-header {
+       max-width: 100%;
+       padding: 10px;
+}
+
+.close-button {
+        float: right;
+        cursor: pointer;
+        margin-right: 5px;
+}
+
+.project_illustration {
+        width:92%;
+        height:auto;
+}
+
 /* MEDIA QUERIES  */
 @media only screen and (max-width: 600px) {
 #desktop_header {
