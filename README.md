@@ -43,6 +43,13 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/ndabosammy)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/sam-ndabo-b0431b17b)
 
+## Authors
+
+👤 **Linus Shaddai**
+- Website: [https://linushaddai99.github.io/My-Portfiolio/](https://linushaddai99.github.io/My-Portfiolio/)
+- GitHub: [@Linushaddai99](https://github.com/Linushaddai99)
+- Twitter: [@ShaddaiLinus](https://twitter.com/ShaddaiLinus)
+- Linkedin: [@ShaddaiLinus](https://www.linkedin.com/in/linusshaddai/)
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!

@@ -309,6 +309,10 @@ img {
         letter-spacing: 0.03em;
 }
 
+.validation-message {
+        text-align: center;
+}
+
 #form_section .span {
         margin-left: 40px;
         margin-top: -20px;
@@ -511,6 +515,10 @@ img {
 .buttons {
         display: flex;
         order: 2;
+}
+
+.text-red {
+        color:red;
 }
 
 /* MEDIA QUERIES  */

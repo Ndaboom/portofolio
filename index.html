@@ -135,12 +135,14 @@
         <h2 class="primary-font-style contact_form_text">I'm always interested in hearing about new projects, so if
             you'd like to chat please get in touch.</h2>
         <!-- Mobile get in touch form -->
-        <form class="input_form" id="mobile_form" action="https://formspree.io/f/maykozkk" method="POST">
-            <input type="text" class="form-input classic" name="fullname" maxlength="30" placeholder="Full name"
+        <form class="input_form" action="https://formspree.io/f/maykozkk" id="mobile_form" method="post">
+            <input type="text" class="form-input classic" id="fullname" name="fullname" maxlength="30"
+                placeholder="Full name" required />
+            <input type="email" class="form-input classic" id="mEmail" name="email" placeholder="Email address"
                 required />
-            <input type="email" class="form-input classic" name="email" placeholder="Email address" required />
-            <textarea class="form-input classic-md" name="message" maxlength="500" placeholder="Enter text here"
-                required></textarea>
+            <textarea class="form-input classic-md" name="message" id="message" maxlength="500"
+                placeholder="Enter text here" required></textarea>
+            <small class="text-red validation-message" id="memail_validation"></small>
             <input type="submit" class="btn-primary primary-font-style btn-connect" name="submit-form"
                 value="Get in touch" />
         </form>
@@ -154,9 +156,11 @@
                 <input type="text" class="form-input classic" name="lastname" maxlength="30" placeholder="Last name"
                     required />
             </div>
-            <input type="email" class="form-input classic" name="email" placeholder="Email address" required />
+            <input type="email" class="form-input classic" name="email" id="dEmail" placeholder="Email address"
+                required />
             <textarea class="form-input classic-md" name="message" maxlength="500" placeholder="Enter text here"
                 required></textarea>
+            <small class="text-red validation-message" id="demail_validation"></small>
             <input type="submit" class="btn-primary primary-font-style btn-connect" name="submit-form"
                 value="Get in touch" />
         </form>
@@ -223,6 +227,7 @@
         </div>
     </section>
     <script src="./assets/main.js"></script>
+    <script src="./assets/form-validation.js"></script>
 </body>
 
 </html>
