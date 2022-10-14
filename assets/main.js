@@ -42,6 +42,7 @@ const description = document.querySelector(".project_description");
 const tech = document.querySelector(".technologies");
 const toggle_modal = document.querySelectorAll(".modal_toggle");
 const modal_close_btn = document.querySelector('.close-button');
+const workSection = document.querySelector('.works_list');
 
 // Modal menu toggle
 toggleMenu.addEventListener('click', () => {
@@ -128,3 +129,55 @@ see_project.forEach((item) => {
     populateUI(works[e.target.id]);
   });
 });
+
+// Dynamically Populate Works Sections
+function createCard(worksItem) {
+  const workContainer = document.createElement('div');
+  workContainer.className = 'card';
+
+  const worksImg = document.createElement('img');
+  worksImg.className = 'card-img';
+  worksImg.setAttribute('src', 'assets/images/img-placeholder.png');
+  workContainer.appendChild(worksImg);
+
+  const cardFooter = document.createElement('div');
+  cardFooter.className = 'card-footer';
+
+  const workTitle = document.createElement('h3');
+  workTitle.className = 'project_title';
+  workTitle.innerHTML = 'Multi-Post Stories<br>Gain+Glory'
+  cardFooter.appendChild(workTitle);
+
+  const cardTagsContainer = document.createElement('ul');
+  cardTagsContainer.className = 'tags';
+  let liOne = '';
+  for (let i = 0; i < worksItem.technologies.length; i += 1) {
+    liOne += `<li>${worksItem.technologies[i]}</li>`;
+  }
+  cardTagsContainer.innerHTML = liOne;
+  cardFooter.appendChild(cardTagsContainer);
+
+  const action = document.createElement('div');
+  action.className = 'action';
+
+  const cardButton = document.createElement('button');
+  cardButton.classList = 'card-btn btn-primary primary-font-style modal_toggle';
+  cardButton.innerHTML = 'See Project';
+  action.appendChild(cardButton);
+
+  cardFooter.appendChild(action);
+
+  workContainer.appendChild(cardFooter);
+
+  workSection.appendChild(workContainer);
+}
+
+
+const populateWorks = (arr) => {
+  for (let i = 0; i < arr.length; i += 1) {
+    createCard(arr[i]);
+  }
+};
+
+populateWorks(works);
+
