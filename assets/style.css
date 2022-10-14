@@ -41,11 +41,6 @@ img {
         line-height: 52px;
 }
 
-/* .center-content {
-        text-align: center;
-        justify-content: center;
-} */
-
 #mobile_header {
        display: flex;
        width: 100%;
@@ -113,7 +108,6 @@ img {
         color: #505F79;
 }
 
-
 .social_media_links {
         display: flex;
         justify-content: center;
@@ -150,20 +144,19 @@ img {
         width: 1200px;
         max-width: 90%;
         margin: 30px auto;
-        /* border: 1px solid black; */
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-        gap: 30px
+        gap: 30px;
 }
 
 .card {
         border: 1px solid #D0D9D4;
         border-radius: 8px;
         padding-bottom: 30px;
-        transition: transform 300ms ease-in-out
+        transition: transform 300ms ease-in-out;
 }
 
 .card:hover {
-  transform : scale(1.05);
+        transform: scale(1.05);
 }
 
 .card-img {
@@ -195,14 +188,8 @@ img {
         background-position: right bottom, left bottom;
         background-repeat: no-repeat, no-repeat;
         background-size: 273px 245px, 288px 129px;
- }
-
- #about_me {
-        background-image: url('./images/illustration-about-me.png');
-        background-repeat: no-repeat;
         text-align: center;
-        margin: 200px 0;
-}
+ }
 
 .supporting_text {
         font-weight: 400;
@@ -217,11 +204,10 @@ img {
        margin: 20px auto;
        display: flex;
        flex-direction: column;
-       gap: 30px
+       gap: 30px;
 }
 
 .works_card {
-        border: 1px solid black;
         text-align: center;
         background: #EBF0EE;
         border: 1px solid #C1C7D0;
@@ -343,14 +329,6 @@ img {
         list-style-type: none;
         margin-left: -27px;
 }
-
-/* .works_list {
-        align-items: center;
-        padding: 4px 2px;
-        gap: 24px;
-        width: 331px;
-        height: 2972px;
-} */
 
 /* DESKTOP CSS */
 
@@ -548,12 +526,6 @@ img {
        background-size: 100%;
 }
 
-
-/* .works_list {
-        display: grid;
-        grid-template-rows: 1fr;
-} */
-
 #desktop_form {
         display: none;
 }
@@ -600,27 +572,6 @@ img {
 #me_knowledge {
         flex-direction: row;
 }
-
-
-/* .works_list {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: -707px;
-        height: 1142px;
-} */
-
-/* #me_knowledge {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        margin-left: auto;
-        margin-right: auto;
-        align-items: center;
-        gap: 24px;
-        width: 331px;
-        height: 420px;
-} */
-
-
 
 .supporting_text {
         margin-left: 300px;
