@@ -4,7 +4,6 @@ const close = document.querySelector('.close_icon');
 const menuOptons = document.querySelectorAll('.popup_menu_option');
 
 // variables for project popup
-const see_project = document.querySelectorAll('.modal_toggle');
 const modalSection = document.querySelector(".work-modal");
 
 // Modal object
@@ -123,13 +122,6 @@ function populateUI(project) {
   modalSection.classList.remove('hide');
 }
 
-// On click listener for see project button
-see_project.forEach((item) => {
-  item.addEventListener('click', (e) => {
-    populateUI(works[e.target.id]);
-  });
-});
-
 // Dynamically Populate Works Sections
 function createCard(worksItem) {
   const workContainer = document.createElement('div');
@@ -180,4 +172,12 @@ const populateWorks = (arr) => {
 };
 
 populateWorks(works);
+
+// On click listener for see project button
+const see_project = document.querySelectorAll('.modal_toggle');
+see_project.forEach((item) => {
+  item.addEventListener('click', (e) => {
+    populateUI(works[0]);
+  });
+});
 
