@@ -4,7 +4,7 @@ const close = document.querySelector('.close_icon');
 const menuOptons = document.querySelectorAll('.popup_menu_option');
 
 // variables for project popup
-const modalSection = document.querySelector(".work-modal");
+const modalSection = document.querySelector('.work-modal');
 
 // Modal object
 const box = `
@@ -35,11 +35,10 @@ const box = `
 modalSection.innerHTML = box;
 
 // Rely modal elements to object
-const title = document.querySelector(".modal_title");
-const image = document.querySelector(".project_illustration");
-const description = document.querySelector(".project_description");
-const tech = document.querySelector(".technologies");
-const toggle_modal = document.querySelectorAll(".modal_toggle");
+const title = document.querySelector('.modal_title');
+const image = document.querySelector('.project_illustration');
+const description = document.querySelector('.project_description');
+const tech = document.querySelector('.technologies');
 const modal_close_btn = document.querySelector('.close-button');
 const workSection = document.querySelector('.works_list');
 
@@ -153,7 +152,7 @@ function createCard(worksItem) {
   action.className = 'action';
 
   const cardButton = document.createElement('button');
-  cardButton.classList = 'card-btn btn-primary primary-font-style modal_toggle';
+  cardButton.classList = 'card-btn btn-primary primary-font-style modalToggle';
   cardButton.innerHTML = 'See Project';
   action.appendChild(cardButton);
 
@@ -174,7 +173,7 @@ const populateWorks = (arr) => {
 populateWorks(works);
 
 // On click listener for see project button
-const see_project = document.querySelectorAll('.modal_toggle');
+const see_project = document.querySelectorAll('.modalToggle');
 see_project.forEach((item) => {
   item.addEventListener('click', (e) => {
     populateUI(works[0]);
