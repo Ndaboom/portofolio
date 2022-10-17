@@ -14,7 +14,7 @@ function validateForm() {
     mobileForm.submit();
     mobileForm.reset();
   } else {
-    validationM.inner = EMAIL_INVALID;
+    validationM.innerHTML = EMAIL_INVALID;
   }
 }
 
@@ -23,7 +23,7 @@ function desktopValidateForm() {
     desktopForm.submit();
     desktopForm.reset();
   } else {
-    validationD.inner = EMAIL_INVALID;
+    validationD.innerHTML = EMAIL_INVALID;
   }
 }
 

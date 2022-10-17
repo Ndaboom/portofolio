@@ -37,11 +37,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Sammy Ndabo**
 
-- GitHub: [@githubhandle](https://github.com/ndaboom)
-- Twitter: [@twitterhandle](https://twitter.com/ndabosammy)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/sam-ndabo-b0431b17b)
+- GitHub: [@ndaboom](https://github.com/ndaboom)
+- Twitter: [@ndabosammy](https://twitter.com/ndabosammy)
+- LinkedIn: [Sam Ndabo](https://linkedin.com/in/sam-ndabo-b0431b17b)
 
 ## Authors
 
