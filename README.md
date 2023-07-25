@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# My Portofolio
+# My Portfolio
 
 > In this project i show up everything you need to know about my professional experience.
 
@@ -11,29 +11,18 @@
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/Ndaboom/portofolio)
+[Live Demo Link](https://ndaboom.github.io/portofolio/)
 
 ## Getting Started
 
-**My Portofolio.**
-**Enjoy reading ❤️!**
-
+**My Portfolio.**
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
 ### Setup
-### Install
-**Please run**
-**npm install**
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+**git clone https://github.com/Ndaboom/portofolio.git**
 
 ## Authors
 
@@ -70,4 +59,3 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./LICENSE) licensed.
 
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
