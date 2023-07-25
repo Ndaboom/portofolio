@@ -151,7 +151,7 @@ img {
 .card {
         border: 1px solid #D0D9D4;
         border-radius: 8px;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
         transition: transform 300ms ease-in-out;
 }
 
@@ -179,6 +179,10 @@ img {
         font-size: 10px;
         font-weight: bold;
         margin-right: 8px;
+}
+
+.card-btn {
+        text-decoration: none;
 }
 
 #about_me {
@@ -220,6 +224,10 @@ img {
         color: #344563;
 }
 
+.works_card-tags {
+        padding-left: 0px;
+}
+
 .works_card-tags li {
         display: inline-block;
         padding: 10px;
@@ -230,6 +238,10 @@ img {
         margin-right: 10px;
         margin-bottom: 10px;
         border-radius: 5px;
+}
+
+.tags {
+        padding-left: 0px;
 }
 
 .action button:hover {
@@ -647,11 +659,11 @@ img {
         display: none;
 }
 
-.action {
+/* .action {
         margin-left: 12px;
-}
+} */
 
-.project_title {
+/* .project_title {
         margin-left: 15px;
-}
+} */
 }

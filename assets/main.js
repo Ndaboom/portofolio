@@ -17,8 +17,8 @@ const box = `
                 <div class="project_info">
                     <h1 class="modal_title"></h1>
                     <div class="buttons">
-                      <button class="btn-primary primary-font-style work-modal-btn">See live <img src="./assets/icons/see-live-icon.png" alt="See live icon" /></button>
-                      <button class="btn-primary primary-font-style work-modal-btn">See source <img src="./assets/icons/github-icon.png" alt="Github icon" /></button>
+                      <button class="btn-primary primary-font-style work-modal-btn live-preview-btn">See live <img src="./assets/icons/see-live-icon.png" alt="See live icon" /></button>
+                      <button class="btn-primary primary-font-style work-modal-btn repo-github-btn">See source <img src="./assets/icons/github-icon.png" alt="Github icon" /></button>
                     </div>
                 </div>
                 <div class="project_technologies">
@@ -39,8 +39,11 @@ const title = document.querySelector('.modal_title');
 const image = document.querySelector('.project_illustration');
 const description = document.querySelector('.project_description');
 const tech = document.querySelector('.technologies');
+const livePreviewBtn = document.querySelector('.live-preview-btn');
+const repoGithubBtn = document.querySelector('.repo-github-btn');
 const modalCloseBtn = document.querySelector('.close-button');
 const workSection = document.querySelector('.works_list');
+const modalBtn = document.querySelectorAll('.work-modal-btn');
 
 // Modal menu toggle
 toggleMenu.addEventListener('click', () => {
@@ -65,48 +68,44 @@ modalCloseBtn.addEventListener('click', () => {
   tech.innerHTML = ' ';
 });
 
-modalSection.addEventListener('click', () => {
-  modalSection.classList.add('hide');
-  tech.innerHTML = ' ';
-});
+// modalSection.addEventListener('click', () => {
+//   modalSection.classList.add('hide');
+//   tech.innerHTML = ' ';
+// });
 
 // works array
 const works = [
   {
-    name: 'Keeping track of hundreds of components',
-    img_src: './assets/images/project-img.png',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    technologies: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    name: 'Zungvi social network',
+    img_src: './assets/images/1668284184171.jpeg',
+    details: 'Zungvi, derived from the Swahili phrase \'Zungumuza vizuri,\' is a social connectivity platform that empowers its users (with over 12,000 registered users) to connect with friends and family through text messages, images, videos, and audio sharing',
+    technologies: ['Php', 'Javascript', 'Jquery', 'Mysql', 'Html', 'Css'],
+    live_preview_url: 'https://zungvi.com',
+    github_repo_url : 'https://github.com/Ndaboom/z-stuff.git' 
   },
   {
-    name: 'Keeping track of hundreds of components',
-    img_src: './assets/images/project-img.png',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    technologies: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    name: 'Simple Tv Show App',
+    img_src: './assets/images/tv-show-app.png',
+    details: 'Series Guide Application is a small application that displays some of the popular shows in the world. It also allows users to share their comments and feedback about their favored shows and give a thumbs up thanks to the external Involvement and TVMaze API services.',
+    technologies: ['Html', 'Scss', 'Javascript', 'Webpack', 'Jest'],
+    live_preview_url: 'https://kweeka1.github.io/movies-app/dist/',
+    github_repo_url : 'https://github.com/Kweeka1/movies-app' 
   },
   {
-    name: 'Keeping track of hundreds of components',
-    img_src: './assets/images/project-img.png',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    technologies: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    name: 'Math magicians',
+    img_src: './assets/images/math-magicians.jpg',
+    details: '"Math magicians" is a react website for all fans of mathematics. It allows users to: Make simple calculations. Read a random math-related quote.',
+    technologies: ['Html', 'Css', 'Reactjs', 'Sylelint', 'Eslint', 'Es6'],
+    live_preview_url: 'https://math-magicians-v3.onrender.com/',
+    github_repo_url : 'https://github.com/Ndaboom/math-magicians-v3' 
   },
   {
-    name: 'Keeping track of hundreds of components',
-    img_src: './assets/images/project-img.png',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    technologies: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    img_src: './assets/images/project-img.png',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    technologies: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
-  },
-  {
-    name: 'Keeping track of hundreds of components',
-    img_src: './assets/images/project-img.png',
-    details: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the release',
-    technologies: ['Ruby on rails', 'Css', 'Javascript', 'Html'],
+    name: 'Subscriptions management',
+    img_src: './assets/images/finances-management.png',
+    details: 'Simple subscriber management application for a money-borrowing group. Features : - Login - Create subscribers - Record all subscriber\'s transactions in the system - Generate accounting reports',
+    technologies: ['Java'],
+    live_preview_url: '',
+    github_repo_url : 'https://github.com/Ndaboom/subscriptions_management' 
   },
 ];
 
@@ -135,7 +134,7 @@ function createCard(worksItem) {
 
   const workTitle = document.createElement('h3');
   workTitle.className = 'project_title';
-  workTitle.innerHTML = 'Multi-Post Stories<br>Gain+Glory';
+  workTitle.innerHTML = worksItem.name;
   cardFooter.appendChild(workTitle);
 
   const cardTagsContainer = document.createElement('ul');
@@ -168,8 +167,22 @@ populateWorks(works);
 
 // On click listener for see project button
 const seeProject = document.querySelectorAll('.modalToggle');
-seeProject.forEach((item) => {
+seeProject.forEach((item, index) => {
   item.addEventListener('click', () => {
-    populateUI(works[0]);
+    populateUI(works[index]);
+    if(works[index].live_preview_url != ""){
+      livePreviewBtn.setAttribute('data-url', works[index].live_preview_url);
+      livePreviewBtn.classList.remove('hide');
+    }else{
+      livePreviewBtn.classList.add('hide');
+    }
+    repoGithubBtn.setAttribute('data-url', works[index].github_repo_url);
+  });
+});
+
+// On click listener for modal btn
+modalBtn.forEach((item) => {
+  item.addEventListener('click', () => {
+    window.open(item.getAttribute('data-url'), '_blank');
   });
 });
