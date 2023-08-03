@@ -108,19 +108,19 @@ const works = [
     github_repo_url : 'https://github.com/Ndaboom/subscriptions_management' 
   },
   {
-    name: 'Laravel REST - API',
+    name: 'CBCA REST - API',
     img_src: './assets/images/img-placeholder.png',
     details: 'REST API for the CBCA Goma-ville website, provides data to both the mobile app and the website',
     technologies: ['Laravel', 'PHP'],
-    live_preview_url: 'https://api.cbcagomaville.org',
+    live_preview_url: 'https://www.api.cbcagomaville.org',
     github_repo_url: 'https://github.com/Cbca-Goma-Ville/api'
   },
   {
     name: 'CBCA Website',
-    img_src: './assets/images/img-placeholder.png',
+    img_src: './assets/images/cbcagv-image.png',
     details: 'This the official repository for the CBCA Goma ville church. From the administration panel to the visitor or client side. Feel free to contribute to the project.',
     technologies: ['Laravel', 'PHP'],
-    live_preview_url: 'https://cbcagomaville.org',
+    live_preview_url: 'https://www.cbcagomaville.org',
     github_repo_url: 'https://github.com/Cbca-Goma-Ville/web-site'
   }
 ];
