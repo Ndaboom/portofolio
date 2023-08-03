@@ -109,7 +109,7 @@ const works = [
   },
   {
     name: 'CBCA REST - API',
-    img_src: './assets/images/img-placeholder.png',
+    img_src: './assets/images/cbcagv-api.png',
     details: 'REST API for the CBCA Goma-ville website, provides data to both the mobile app and the website',
     technologies: ['Laravel', 'PHP'],
     live_preview_url: 'https://www.api.cbcagomaville.org',
